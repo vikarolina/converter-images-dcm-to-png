@@ -1,2 +1,12 @@
-# convert-images-dcm-to-png
+# converter-images-dcm-to-png
+
+**Instalação das dependências:**
+pip install pydicom numpy Pillow
+
+# Passando as pastas por argumento
+python converter_dcm_png.py caminho/entrada caminho/saida
+
+# Sem argumentos (usa "imagens_dcm" e "imagens_png" por padrão)
+python converter_dcm_png.py
+
 Python 3.5
