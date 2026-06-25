@@ -9,9 +9,9 @@
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/Pillow-5C3EE8?style=for-the-badge" alt="Pillow" />
 </p>
----
+
  
-## 📋 Sobre
+## Sobre
  
 Script que percorre uma pasta de imagens **DICOM** (`.dcm`) e converte cada arquivo para **PNG**, salvando o resultado em uma pasta de saída. Útil para visualizar ou reaproveitar exames fora de softwares de imagem médica.
  
@@ -63,4 +63,3 @@ converter-images-dcm-to-png/
  
 - Os arquivos `.dcm` devem estar na pasta de entrada antes de rodar o script.
 - A pasta de saída é criada/usada automaticamente conforme os caminhos informados.
-- Arquivos DICOM podem conter dados pessoais do paciente — atenção à privacidade ao compartilhar as imagens convertidas.
